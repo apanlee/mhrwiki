@@ -3,7 +3,7 @@
 > My Human Resource
 
 * [总体需求分析](general_requirement.md)
-* [总体需求分析](proposal_requirement.md)
+* [**方案研究模块**](proposal_requirement.md)
 
 ---
 
