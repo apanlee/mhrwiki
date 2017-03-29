@@ -50,4 +50,4 @@
 
 
 ## 4 Demo
-[方案研究模块](http://123.207.161.77/proposql/index.html)
+[方案研究模块](http://123.207.161.77/proposal/index.html)
