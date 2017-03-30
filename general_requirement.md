@@ -7,7 +7,7 @@
 > CHR是一套基于oracle数据库底层、CS结构的MIS系统。
 
 ## 2 研究目标
-项目旨在设计开发一套BS结构人力资源信息管理系统，在CHR基础上增加方案处理、统计分析、信息管理三项业务。
+项目旨在设计开发一套BS结构人力资源信息管理系统，在CHR基础上增加[方案研究](proposal_requirement.md)、[分析统计](statistics_requirement.md)、[信息补充](supplementaryinfo_requirement.md)三项业务。
 ![img](img/综合业务平台.png)
 
 ## 3 技术选型
