@@ -1,0 +1,319 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>总体需求分析 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="proposal_requirement.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="general_requirement.html">
+            
+                <a href="general_requirement.html">
+            
+                    
+                    总体需求分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="proposal_requirement.html">
+            
+                <a href="proposal_requirement.html">
+            
+                    
+                    方案研究模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <a target="_blank" href="http://123.207.161.77">
+            
+                    
+                    MHR项目演示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <a target="_blank" href="https://bitbucket.org/apanhr/mhr">
+            
+                    
+                    Bitbucket项目管理主页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >总体需求分析</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="mhr-&#x603B;&#x4F53;&#x9700;&#x6C42;&#x5206;&#x6790;">MHR &#x603B;&#x4F53;&#x9700;&#x6C42;&#x5206;&#x6790;</h1>
+<h2 id="1-&#x7814;&#x7A76;&#x80CC;&#x666F;">1 &#x7814;&#x7A76;&#x80CC;&#x666F;</h2>
+<p>&#x76EE;&#x524D;&#xFF0C;&#x6211;&#x516C;&#x53F8;&#x4EBA;&#x529B;&#x8D44;&#x6E90;&#x5DE5;&#x4F5C;&#x4F9D;&#x6258;&#x4E0A;&#x7EA7;&#x914D;&#x53D1;&#x7684;CHR&#x5B8C;&#x6210;&#x5404;&#x7C7B;&#x4EBA;&#x624D;&#x4FE1;&#x606F;&#x7BA1;&#x7406;&#x3002;CHR&#x7684;&#x4E3B;&#x8981;&#x529F;&#x80FD;&#x662F;&#x6570;&#x636E;&#x5B58;&#x50A8;&#xFF0C;&#x5728;&#x4E1A;&#x52A1;&#x5904;&#x7406;&#x4E0A;&#x65E0;&#x6CD5;&#x53CA;&#x65F6;&#x3001;&#x51C6;&#x786E;&#x6EE1;&#x8DB3;&#x6211;&#x516C;&#x53F8;&#x7684;&#x4EBA;&#x5458;&#x8D44;&#x6E90;&#x7BA1;&#x7406;&#x9700;&#x8981;&#x3002;&#x51FA;&#x4E8E;&#x65E2;&#x8981;&#x7EE7;&#x7EED;&#x4F7F;&#x7528;&#x6307;&#x5B9A;&#x7CFB;&#x7EDF;&#x7684;&#x8981;&#x6C42;&#xFF0C;&#x53C8;&#x8981;&#x6EE1;&#x8DB3;&#x6211;&#x516C;&#x53F8;&#x4E2A;&#x6027;&#x5316;&#x529F;&#x80FD;&#x7684;&#x73B0;&#x5B9E;&#x9700;&#x8981;&#xFF0C;&#x8BA1;&#x5212;&#x57FA;&#x4E8E;CHR&#x8BBE;&#x8BA1;&#x7814;&#x53D1;&#x884D;&#x751F;&#x4EA7;&#x54C1;MHR&#x3002;</p>
+<blockquote>
+<p>CHR&#x662F;&#x4E00;&#x5957;&#x57FA;&#x4E8E;oracle&#x6570;&#x636E;&#x5E93;&#x5E95;&#x5C42;&#x3001;CS&#x7ED3;&#x6784;&#x7684;MIS&#x7CFB;&#x7EDF;&#x3002;</p>
+</blockquote>
+<h2 id="2-&#x7814;&#x7A76;&#x76EE;&#x6807;">2 &#x7814;&#x7A76;&#x76EE;&#x6807;</h2>
+<p>&#x9879;&#x76EE;&#x65E8;&#x5728;&#x8BBE;&#x8BA1;&#x5F00;&#x53D1;&#x4E00;&#x5957;BS&#x7ED3;&#x6784;&#x4EBA;&#x529B;&#x8D44;&#x6E90;&#x4FE1;&#x606F;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#xFF0C;&#x5728;CHR&#x57FA;&#x7840;&#x4E0A;&#x589E;&#x52A0;&#x65B9;&#x6848;&#x5904;&#x7406;&#x3001;&#x7EDF;&#x8BA1;&#x5206;&#x6790;&#x3001;&#x4FE1;&#x606F;&#x7BA1;&#x7406;&#x4E09;&#x9879;&#x4E1A;&#x52A1;&#x3002;
+<img src="img/&#x7EFC;&#x5408;&#x4E1A;&#x52A1;&#x5E73;&#x53F0;.png" alt="img"></p>
+<h2 id="3-&#x6280;&#x672F;&#x9009;&#x578B;">3 &#x6280;&#x672F;&#x9009;&#x578B;</h2>
+<ul>
+<li>&#x7A0B;&#x5E8F;&#x8BED;&#x8A00;: Python</li>
+<li>&#x7F51;&#x7AD9;&#x6846;&#x67B6;: Django</li>
+<li>&#x6570;&#x636E;&#x5E93;: mysql &amp; oracle&#x3002;&#x9879;&#x76EE;&#x9700;&#x8981;&#x4E24;&#x4E2A;&#x6570;&#x636E;&#x5E93;&#xFF0C;&#x4E00;&#x662F;&#x9009;&#x62E9;Mysql/Oracle&#x4F5C;&#x4E3A;&#x4E3B;&#x4F53;&#x4E1A;&#x52A1;&#x6570;&#x636E;&#x5E93;&#xFF0C;&#x4E8C;&#x662F;&#x9009;&#x62E9;&#x6027;&#x5E94;&#x7528;CHR&#x7684;oracle&#x6570;&#x636E;&#x5E93;&#x3002;</li>
+<li>&#x524D;&#x7AEF;&#x5DE5;&#x5177;: Bootstrap / JQuery / Html5 / CSS /Datetable</li>
+<li>&#x540E;&#x7AEF;&#x5DE5;&#x5177;: Bracker / PyCharm / Vim </li>
+<li>&#x9879;&#x76EE;&#x7BA1;&#x7406;: Bitbucket / Github </li>
+</ul>
+<h2 id="4-&#x9879;&#x76EE;&#x5206;&#x5DE5;&#x548C;&#x8FDB;&#x5EA6;">4 &#x9879;&#x76EE;&#x5206;&#x5DE5;&#x548C;&#x8FDB;&#x5EA6;</h2>
+<ul>
+<li>2017.03 &#x521D;&#x6B65;&#x9700;&#x6C42;&#x5206;&#x6790;&#x548C;&#x524D;&#x7AEF;&#x5C0F;&#x6837;</li>
+<li>2017.04 &#x8BE6;&#x7EC6;&#x8BA8;&#x8BBA;&#x5E76;&#x5B8C;&#x6210;&#x9700;&#x6C42;&#x5206;&#x6790;</li>
+<li>2017.05 &#x65B9;&#x6848;&#x7814;&#x7A76;&#x6A21;&#x5757;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;</li>
+<li>2017.06 &#x5B8C;&#x6210;&#x65B9;&#x6848;&#x7814;&#x7A76;&#x6A21;&#x5757;</li>
+<li>2017.07 &#x6D4B;&#x8BD5;</li>
+<li>2017.08 &#x57F9;&#x8BAD;</li>
+<li>2017.09 &#x5B8C;&#x6210;&#x4FE1;&#x606F;&#x8865;&#x5145;&#x6A21;&#x5757;</li>
+<li>2017.10 &#x5B8C;&#x6210;&#x5206;&#x6790;&#x7814;&#x7A76;&#x6A21;&#x5757;</li>
+</ul>
+<h2 id="&#x754C;&#x9762;&#x6F14;&#x793A;">&#x754C;&#x9762;&#x6F14;&#x793A;</h2>
+<ul>
+<li><a href="http://123.207.161.77" target="_blank">MHR&#x4E3B;&#x9875;</a></li>
+</ul>
+<h2 id="&#x4E0B;&#x4E00;&#x7BC7;&#xFF1A;&#x65B9;&#x6848;&#x7814;&#x7A76;&#x6A21;&#x5757;"><a href="proposal_requirement.html">&#x4E0B;&#x4E00;&#x7BC7;&#xFF1A;&#x65B9;&#x6848;&#x7814;&#x7A76;&#x6A21;&#x5757;</a></h2>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="proposal_requirement.html" class="navigation navigation-next " aria-label="Next page: 方案研究模块">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"总体需求分析","level":"1.2","depth":1,"next":{"title":"方案研究模块","level":"1.3","depth":1,"path":"proposal_requirement.md","ref":"proposal_requirement.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"general_requirement.md","mtime":"2017-03-30T00:10:27.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-30T00:39:13.097Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
