@@ -49,7 +49,7 @@
 开发时，只针对一个大类业务处理，即专业技术干部调整专业技术等级。涉及的逻辑规则全部通过后台设置的方式设计，这是该模块的主要特点，可以适应由政策调整带来的规则变化。
 
 
-## 3 URL映射
+## 4 URL映射
 * /proposal/index.html 提供新建方案、维护方案入口，并分类展示最近方案。同时提供导航菜单、用户登陆、全局搜索功能。
 * /proposal/createproposal 新建方案。
 * /proposal/multipleproposal 处理方案的核心
@@ -57,5 +57,5 @@
 * /dashboard/proposal/ 完成所有后台设置。
 
 
-## 4 Demo
+## 5 Demo
 [方案研究模块](http://123.207.161.77/proposal/index.html)
